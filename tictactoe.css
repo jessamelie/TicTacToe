@@ -1,0 +1,21 @@
+#gameContainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#gameGrid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 210px;
+    margin: auto;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+    box-shadow: 0 0 0 1px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
